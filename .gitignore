@@ -881,6 +881,11 @@ venv.bak/
 # Data files
 *.csv
 *.json
+
+# Allow essential configuration manifests
+!package.json
+!tsconfig.json
+!.eslintrc.json
 *.xml
 *.parquet
 data/
